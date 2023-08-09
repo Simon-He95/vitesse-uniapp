@@ -1,0 +1,12 @@
+.flex {
+  display: flex
+}
+
+.w-10 {
+  width: 2.5rem
+}
+
+.bg-red-100 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(254 226 226 / var(--tw-bg-opacity))
+}
