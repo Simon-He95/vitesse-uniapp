@@ -53,7 +53,7 @@
     "@dcloudio/uni-mp-toutiao": "3.0.0-3080720230703001",
     "@dcloudio/uni-mp-weixin": "3.0.0-3080720230703001",
     "@dcloudio/uni-quickapp-webview": "3.0.0-3080720230703001",
-    "cssnano": "^6.0.1",
+    "rollup-plugin-copy": "^3.4.0",
     "vue": "^3.2.45",
     "vue-i18n": "^9.1.9"
   },
