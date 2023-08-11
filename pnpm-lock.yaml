@@ -50,6 +50,9 @@ dependencies:
   unplugin-auto-import:
     specifier: ^0.16.6
     version: 0.16.6
+  vite-plugin-tailwind-uni:
+    specifier: ^0.0.2
+    version: 0.0.2
   vue:
     specifier: ^3.2.45
     version: 3.3.4
@@ -6428,6 +6431,10 @@ packages:
     resolution: {integrity: sha512-BNGbWLfd0eUPabhkXUVm0j8uuvREyTh5ovRa/dyow/BqAbZJyC+5fU+IzQOzmAKzYqYRAISoRhdQr3eIZ/PXqg==}
     engines: {node: '>= 0.8'}
     dev: true
+
+  /vite-plugin-tailwind-uni@0.0.2:
+    resolution: {integrity: sha512-WMtQTY+c/b5U7dc8KmjVO/CBe1VBab6+JYb/B6VTsL70nsifdOLsYSEM1vH3rNQhBk+v4OgPMYM7fN7+EBHWtg==}
+    dev: false
 
   /vite@4.0.4(terser@5.19.2):
     resolution: {integrity: sha512-xevPU7M8FU0i/80DMR+YhgrzR5KS2ORy1B4xcX/cXLsvnUWvfHuqMmVU6N0YiJ4JWGRJJsLCgjEzKjG9/GKoSw==}
