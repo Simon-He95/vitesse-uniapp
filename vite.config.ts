@@ -1,6 +1,8 @@
 import { defineConfig } from "vite";
 import uni from "@dcloudio/vite-plugin-uni";
 import copy from 'rollup-plugin-copy';
+import AutoImport from 'unplugin-auto-import/vite'
+
 
 
 const args = process.argv.slice(2);
@@ -25,9 +27,10 @@ export default defineConfig({
   plugins: [
     uni(),
     wxFixPlugin() as any,
-    // cssnano({
-    //   preset: 'default',
-    // }) as any,
+    AutoImport({
+      imports: ['vue'],
+      dts: true,
+    }),
     i !== -1 && copy({
       targets: [
         { src: 'static/**/*', dest: `dist/build/${args[i + 1]}/static` }

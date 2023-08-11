@@ -1,5 +1,5 @@
 {
-  "name": "uni-preset-vue",
+  "name": "vitesse",
   "version": "0.0.0",
   "scripts": {
     "dev:app": "uni -p app",
@@ -54,6 +54,7 @@
     "@dcloudio/uni-mp-weixin": "3.0.0-3080720230703001",
     "@dcloudio/uni-quickapp-webview": "3.0.0-3080720230703001",
     "rollup-plugin-copy": "^3.4.0",
+    "unplugin-auto-import": "^0.16.6",
     "vue": "^3.2.45",
     "vue-i18n": "^9.1.9"
   },
