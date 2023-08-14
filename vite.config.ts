@@ -4,12 +4,8 @@ import copy from 'rollup-plugin-copy';
 import AutoImport from 'unplugin-auto-import/vite'
 import { vitePluginTailwindUni } from 'vite-plugin-tailwind-uni'
 
-
-
 const args = process.argv.slice(2);
 const i = args.findIndex(item => item === '-p')
-
-
 
 // https://vitejs.dev/config/
 export default defineConfig({
