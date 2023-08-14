@@ -1,5 +1,5 @@
 ## Vitesse-uniapp
-uniapp + vite + ts + tailwindcss 项目模板
+uniapp + tailwindcss + vue3 + vite+autoImport 项目模板
 
 ## License
 [MIT](./LICENSE) License © 2022 [Simon He](https://github.com/Simon-He95)
