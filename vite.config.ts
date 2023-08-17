@@ -6,6 +6,7 @@ import { vitePluginTailwindUni } from 'vite-plugin-tailwind-uni'
 
 const args = process.argv.slice(2);
 const i = args.findIndex(item => item === '-p')
+const filename = i === -1 ? 'h5' : args[i + 1]
 
 // https://vitejs.dev/config/
 export default defineConfig({
@@ -21,9 +22,9 @@ export default defineConfig({
       imports: ['vue'],
       dts: true,
     }),
-    i !== -1 && copy({
+    copy({
       targets: [
-        { src: 'static/**/*', dest: `dist/build/${args[i + 1]}/static` }
+        { src: 'static/**/*', dest: `dist/build/${filename}/static` }
       ]
     })
   ],
