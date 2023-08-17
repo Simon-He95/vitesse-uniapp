@@ -27,7 +27,7 @@ export default defineConfig({
       buildEnd() {
         const files = fs.readdirSync("static", 'utf-8')
         setTimeout(async () => {
-          const desc = `dist/build/${filename}/static`
+          const desc = `./dist/build/${filename}/static`
           if (!fs.existsSync(desc)) {
             await fs.mkdirSync(desc)
           }
