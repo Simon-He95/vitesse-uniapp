@@ -7,7 +7,7 @@ import fs from 'fs'
 const args = process.argv.slice(2);
 const i = args.findIndex(item => item === '-p')
 const filename = i === -1 ? 'h5' : args[i + 1]
-console.log({ filename })
+
 // https://vitejs.dev/config/
 export default defineConfig({
   resolve: {
@@ -34,7 +34,7 @@ export default defineConfig({
           files.forEach((file: string) => {
             fs.copyFileSync(`static/${file}`, `${desc}/${file}`);
           })
-        },10)
+        },1000)
 
       }
     }
